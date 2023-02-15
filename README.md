@@ -13,7 +13,7 @@ This is a Python script that generates a leaderboard image for your local Yugioh
 2. Save the Leaderboard-Input.xlsx file and close Excel.
 3. Run the Generator.py script by  double clicking on the file or by typing the following command in the terminal:
 ```python Generator.py``` 
-This will generate a new leaderboard image based on the data in the Leaderboard-Input.xlsx file, and save it in the output folder with a timestamped filename.
+This will generate a new leaderboard image based on the data in the Leaderboard-Input.xlsx file, and save it in the output folder with a timestamped filename.\n
 4.Open the output folder to view the generated leaderboard image.
 
 # Customization 
