@@ -4,7 +4,7 @@ This is a Python script that generates a leaderboard image for your local Yugioh
 
 #Installation
 - Clone or download this repository to your local machine.
-```git clone https://github.com/Rami-ismail/YugiohLeaderBoardGenerator.git` ``
+``` git clone https://github.com/Rami-ismail/YugiohLeaderBoardGenerator.git ```
 - Install the required dependencies by running the following command in the terminal:
 ```pip install -r requirements.txt```
 
