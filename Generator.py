@@ -47,10 +47,12 @@ def drawLeaderBoard(leaderboard_data, leaderboardName, counter):
         ranking += 1
         offset = index+1
         row_y = -100 + (offset) * 100
+        
         if ranking > 9:
             image_editable.text((85, 300 + row_y), str(ranking),("#FFFFFF"), font=fontBig)
         else:
             image_editable.text((100, 300 + row_y), str(ranking), ("#FFFFFF"), font=fontBig)
+            
         image_editable.text((220, 275 + row_y+offset*2), item.name,("#FFFFFF"), font=fontBig)
         image_editable.text((220, 330 + row_y), item.deck, ("#FFFFFF"), font=fontSmall)
         image_editable.text((930, 300 + row_y), str(item.score), ("#FFFFFF"), font=fontBig)
